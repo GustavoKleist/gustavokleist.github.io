@@ -1,4 +1,4 @@
-let versao = 8
+let versao = 12
 
 let arquivos = [
 "/",
@@ -34,9 +34,6 @@ let arquivos = [
 "img/edit.svg",
 ]
 
-self.addEventListener("install", function(){
-    console.log("Instalou")
-})
 
 self.addEventListener("activate", function(){
     caches.open("ceep-arquivos-" + versao).then(cache => {
