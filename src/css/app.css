@@ -1,0 +1,85 @@
+
+.main-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #521751;
+  margin-bottom: 36px;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: white;
+}
+
+.main-header h3 {
+  font-size: 1.25em;
+  margin: 0;
+  color: #fa923f;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.wrapper {
+  display: grid;
+  text-align: center;
+  align-items: center
+}
+.wrapper .inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.wrapper .counts {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+.wrapper .btn {
+  position: relative;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #e91e63;
+  padding: 20px 0;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  -moz-box-shadow: 0px 9px 0px #AD1457;
+  -webkit-box-shadow: 0px 9px 0px #AD1457;
+  box-shadow: 0px 9px 0px #AD1457;
+}
+.wrapper .btn:active, .wrapper .btn:focus {
+  -moz-box-shadow: 0px 2px 0px #AD1457;
+  -webkit-box-shadow: 0px 2px 0px #AD1457;
+  box-shadow: 0px 2px 0px #AD1457;
+  top: 7px;
+  position: relative;
+}
+.wrapper p {
+  margin-top: 30px;
+}
+.wrapper p a {
+  color: #777;
+  text-decoration: none;
+}

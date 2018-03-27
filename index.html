@@ -1,46 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-br" manifest="offline.manifest">
+<!doctype html>
+<html lang="en">
 <head>
-	<link rel="manifest" href="app.manifest">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/opcoesDaPagina.css">
-  <link rel="stylesheet" href="css/opcoesDoCartao.css">
-  <link rel="stylesheet" href="css/cabecalho.css">
-	<link rel="stylesheet" href="css/login.css">
-	<link rel="stylesheet" href="css/loginForm.css">
-	<link rel="stylesheet" href="css/loginStatus.css">
-  <link rel="stylesheet" href="css/cartao.css">
-  <link rel="stylesheet" href="css/novoCartao.css">
-  <link rel="stylesheet" href="css/mural.css">
-  <title>Brejas</title>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Count Beer</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="manifest" href="/manifest.json">
 </head>
 <body>
-  <header class="cabecalho container">
-    <h1 class="cabecalho-logo">
-      CONTADOR DE BREJAS
-    </h1>
-  </header>
-	<section class="container login"></section>
-	<script src="js/sw/registra.js"></script>
-	<script src="js/lib/jquery.js"></script>
-	<script src="js/lib/eventemitter2.js"></script>
-	<script src="js/lib/KeyBoardNavigation.js"></script>
-	<script src="js/tags/Tags.js"></script>
-	<script src="js/cabecalho/mudaLayout.js"></script>
-	<script src="js/cabecalho/busca.js"></script>
-	<script src="js/filtro/Filtro.js"></script>
-	<script src="js/tipos/TiposCartao.js"></script>
-	<script src="js/cartao/render/Cartao_renderHelpers.js"></script>
-	<script src="js/cartao/render/CartaoOpcoes_render.js"></script>
-	<script src="js/cartao/render/CartaoConteudo_render.js"></script>
-	<script src="js/cartao/render/Cartao_render.js"></script>
-	<script src="js/cartao/Cartao.js"></script>
-	<script src="js/login/LoginUsuario_render.js"></script>
-	<script src="js/login/LoginUsuario.js"></script>
-	<script src="js/mural/render/Mural_render.js"></script>
-	<script src="js/mural/Mural.js"></script>
-	<script src="js/cabecalho/novoCartao.js"></script>
+<header class="main-header">
+  <h1>COUNT BEER</h1>
+  <h3>O jeito mais fácil de contar seu choop</h3>
+</header>
+<div class="wrapper">
+	<div class="inner">
+		<div class="counts">00</div>
+		<div class="btn">+1 Chopinho</i></div>
+		<p><a href="#" class="reset">A conta Garçom</a></p>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="/src/js/app.js"></script>
 </body>
 </html>
