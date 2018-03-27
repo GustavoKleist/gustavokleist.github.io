@@ -1,6 +1,5 @@
 {
-  "name": "A basic Progressive Web App",
-  "short_name": "Basic PWA",
+  "name": "Count Beer",
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",

@@ -9,8 +9,7 @@ self.addEventListener('install', function (event) {
           '/src/js/app.js',
           '/src/css/app.css',
           '/src/images/pwa.jpg',
-          'https://fonts.googleapis.com/css?family=Raleway:400,700',
-          'https://code.jquery.com/jquery-1.9.1.js'
+          '/src/js/jquery.js'
         ]);
       })
   );
