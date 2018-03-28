@@ -1,3 +1,5 @@
+let storage = localStorage.getItem("numeroBrejas")
+
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js')
     .then(function() {
@@ -6,6 +8,9 @@ if ('serviceWorker' in navigator) {
 }
 
 $(document).ready(function() {
+	if (storage){
+		$(".counts").text(storage);
+	}
 	var counts = 0;
 	$(".btn").click(function() {
 		counts += +1;
@@ -14,6 +19,7 @@ $(document).ready(function() {
 		} else {
 			counts1 = counts;
 		}
+		localStorage.setItem("numeroBrejas", counts1);
 		$(".counts").text(counts1);
 	});
 
