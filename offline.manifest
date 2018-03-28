@@ -4,6 +4,7 @@ CACHE:
 src/css/app.css
 src/js/jquery.js
 src/js/app.js
+src/images/beer.png
 
 NETWORK:
 *
