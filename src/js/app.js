@@ -10,8 +10,10 @@ if ('serviceWorker' in navigator) {
 $(document).ready(function() {
 	if (storage){
 		$(".counts").text(storage);
+		var count = storage;
+	} else {
+		var counts = 0;
 	}
-	var counts = 0;
 	$(".btn").click(function() {
 		counts += +1;
 		if (counts < 10) {
