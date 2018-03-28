@@ -9,6 +9,7 @@ self.addEventListener('install', function (event) {
           '/src/js/app.js',
           '/src/css/app.css',
           '/src/images/beer.png',
+          '/favicon.ico',
           '/src/js/jquery.js'
         ]);
       })
