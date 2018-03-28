@@ -12,8 +12,18 @@
       "type": "image/png"
     },
     {
-      "src": "/src/images/beer.png",
+      "src": "/src/images/beer-icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/images/beer-icon-256x256.png",
       "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/images/beer-icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
