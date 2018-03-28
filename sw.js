@@ -8,7 +8,6 @@ self.addEventListener('install', function (event) {
           '/index.html',
           '/src/js/app.js',
           '/src/css/app.css',
-          '/src/images/beer.png',
           '/src/images/beer-icon-128x128.png',
           '/src/images/beer-icon-256x256.png',
           '/src/images/beer-icon-512x512.png',
