@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
 $(document).ready(function() {
 	if (storage){
 		$(".counts").text(storage);
-		var count = storage;
+		count = parseInt(storage);
 	} else {
 		var counts = 0;
 	}
